@@ -1,0 +1,8 @@
+services:
+  isce2:
+    build:
+      context: ./docker
+    volumes:
+      - /home/eum/hwnas/camilo:/home/camilo
+    tty: true
+
